@@ -9,5 +9,5 @@ Java SQL
 * Programming Interview Exposed
 # 第三阶段：进阶
 * 刷cracking the coding interview和leetcode题目
-*[编程算法面试题专版](http://www.1point3acres.com/bbs/forum-84-1.html)
-*[一亩三分地](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=303319&extra=&page=1)
+* [编程算法面试题专版](http://www.1point3acres.com/bbs/forum-84-1.html)
+* [一亩三分地](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=303319&extra=&page=1)
