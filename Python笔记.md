@@ -11,3 +11,35 @@ def fact_iter(num, product):
         return product
     return fact_iter(num - 1, num * product)
 ```
+*练习：汉诺塔（自己写的）*
+```
+def mov(a, b):
+    a, b = b, a
+    return a, b
+def move(n, a, b, c):
+    if n == 1:
+        print(a, '-->', c)
+    else:
+        b, c = mov(b, c)
+        move(n-1, a, b, c)
+        b, c = mov(b, c)
+        move(1, a, b, c)
+        a, b = mov(a, b)
+        move(n-1, a, b, c)
+        a, b = mov(a, b)
+A = 'A'
+B = 'B'
+C = 'C'
+```
+# 切片
+```
+>>> 'ABCDEFG'[::2]
+'ACEG'
+```
+*练习：去除字符串首尾的空格（别人写的）*
+```
+while x[:1] = ' ':
+    x[:1] = x[1:]
+while x[-1:] = ' ':
+    x[-1:] = x[:-1]
+    return x
