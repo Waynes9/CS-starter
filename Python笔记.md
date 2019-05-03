@@ -44,3 +44,22 @@ while x[-1:] = ' ':
     x[-1:] = x[:-1]
     return x
 ```
+# Generator
+*杨辉三角*
+```
+def triangle():
+    t = [1]
+    while ture:
+        yield(t)
+        t = [1] + [t[n]+t[n+1] for n in range(len(L)-1)] + [1]
+    pass
+```    
+# Iterable Iterator
+* 可以通过iter()函数获得一个Iterator对象
+# map/reduce
+* map()传入的第一个参数是函数，第二个是iterable, 返回新的iterator
+* 因为iterator是惰性的，可以用list来获得一个list
+```
+reduce(f, [x1, x2, x3]) = f(f((x1, x2), x3)
+```
+* from functools import reduce
