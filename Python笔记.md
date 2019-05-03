@@ -74,5 +74,12 @@ L1 = ['adam', 'LISA', 'barT']
 L2 = list(map(normalize, L1))
 print(L2)
 ```
-
-    x[-1:] = x[:-1]
+```
+# ex.2 prod()函数，求累积
+def prod(L):
+    return reduce(lambda x,y:x*y , L) lambda为匿名函数，可临时指定一个函数操作
+    pass
+```
+```
+# ex.3 将字符串转为浮点数 with reduce & map
+return reduce(lambda x, y: x*10 + y, list(map(lambda s: float(s)/1000, s.replace('.',''))))
