@@ -63,3 +63,16 @@ def triangle():
 reduce(f, [x1, x2, x3]) = f(f((x1, x2), x3)
 ```
 * from functools import reduce
+* map()会将函数作用于每一个iterable中，比如‘1234353’，则是将函数分别作用于‘1’‘2’...，再比如['adam', 'LISA', 'barT']
+```
+# ex.1 利用map()函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。
+def normalize(name):
+    return name[:1].upper + name[1:].lower # 这里好像把list处理成了[adam]这样的list来调用？
+    pass
+# 测试
+L1 = ['adam', 'LISA', 'barT']
+L2 = list(map(normalize, L1))
+print(L2)
+```
+
+    x[-1:] = x[:-1]
