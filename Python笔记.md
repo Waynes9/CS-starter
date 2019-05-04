@@ -83,3 +83,13 @@ def prod(L):
 ```
 # ex.3 将字符串转为浮点数 with reduce & map
 return reduce(lambda x, y: x*10 + y, list(map(lambda s: float(s)/1000, s.replace('.',''))))
+```
+# filter
+* filter()也接收一个函数和一个序列。和map()不同的是，filter()把传入的函数依次作用于每个元素，然后根据返回值是True还是False决定保留还是丢弃该元素
+* Python strip() 方法用于移除字符串**头尾**指定的字符（默认为空格或换行符）或字符序列
+* return n % 2 == 1 右边为判断语句，返回值为True or False
+## b = a[i:j:s]
+> b = a[i:j:s]这种格式呢，i,j与上面的一样，但s表示步进，缺省为1.
+所以a[i:j:1]相当于a[i:j]
+当s<0时，i缺省时，默认为-1. j缺省时，默认为-len(a)-1
+所以a[::-1]相当于 a[-1:-len(a):-1]，也就是从最后一个元素到第一个元素复制一遍。所以你看到一个倒序的。
