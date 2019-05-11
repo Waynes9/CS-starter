@@ -96,3 +96,18 @@ return reduce(lambda x, y: x*10 + y, list(map(lambda s: float(s)/1000, s.replace
 # sorted
 * sorted([36, 5, -12, 9, -21], key=abs) key指定的函数将作用于list的每一个元素上，并根据key函数返回的结果进行排序
 > 要进行反向排序，不必改动key函数，可以传入第三个参数reverse=True
+```
+# L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)] 
+# 将L从大按姓名排序，按成绩排序
+def by_name(t):
+    return t[0]
+    pass
+L2 = sorted(L, key = by_name)
+print(L2)
+
+def = by_score(t):
+    return -t[1]
+    pass
+L2 = sorted(L, key = by_score)
+print(L2)
+```
