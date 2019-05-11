@@ -93,3 +93,6 @@ return reduce(lambda x, y: x*10 + y, list(map(lambda s: float(s)/1000, s.replace
 所以a[i:j:1]相当于a[i:j]
 当s<0时，i缺省时，默认为-1. j缺省时，默认为-len(a)-1
 所以a[::-1]相当于 a[-1:-len(a):-1]，也就是从最后一个元素到第一个元素复制一遍。所以你看到一个倒序的。
+# sorted
+* sorted([36, 5, -12, 9, -21], key=abs) key指定的函数将作用于list的每一个元素上，并根据key函数返回的结果进行排序
+> 要进行反向排序，不必改动key函数，可以传入第三个参数reverse=True
