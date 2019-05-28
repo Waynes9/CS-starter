@@ -24,3 +24,6 @@ Dog d = new dog()
 
 # Static variables
 > Variables can also be static. Static variables should be accessed using the class name, e.g. Dog.binomen as opposed to d.binomen. Technically Java allows you to access using a specific instance, but we strongly encourage you not to do this to avoid confusion.
+
+# Print statement
+* if we use `System.out.print` instead of ` System.out.println`, it means that we should includ a new line after that, which is the return of this method
