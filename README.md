@@ -16,3 +16,4 @@ Java SQL
 * [Java roadmap](https://github.com/xingshaocheng/architect-awesome)
 * [GIT教程](https://sp18.datastructur.es/materials/guides/using-git.html)
 * [Visualize code](http://www.pythontutor.com/)
+* [Terminal commands](https://sp19.datastructur.es/materials/lab/lab1setup/lab1setup)
