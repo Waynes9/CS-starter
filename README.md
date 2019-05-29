@@ -13,5 +13,6 @@ Java SQL
 * [一亩三分地](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=303319&extra=&page=1)
 
 * [leetcode 刷题](https://github.com/azl397985856/leetcode.git) 
-* [JAVA roadmap](https://github.com/xingshaocheng/architect-awesome)
+* [Java roadmap](https://github.com/xingshaocheng/architect-awesome)
 * [GIT教程](https://sp18.datastructur.es/materials/guides/using-git.html)
+* [Visualize code](http://www.pythontutor.com/)
