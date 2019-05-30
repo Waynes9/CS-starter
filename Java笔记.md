@@ -27,3 +27,6 @@ Dog d = new dog()
 
 # Print statement
 * if we use `System.out.println` instead of ` System.out.print`, it will bring a automatic newline
+
+# Class
+* A class that uses another class is sometimes called a "client" of that class
