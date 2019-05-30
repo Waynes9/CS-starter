@@ -14,6 +14,6 @@ Java SQL
 # 补充
 * [leetcode 刷题](https://github.com/azl397985856/leetcode.git) 
 * [Java roadmap](https://github.com/xingshaocheng/architect-awesome)
-* [GIT教程](https://sp18.datastructur.es/materials/guides/using-git.html)
+* [Git教程](https://sp18.datastructur.es/materials/guides/using-git.html) [Git WTFS](https://sp18.datastructur.es/materials/guides/git-wtfs.html#head-detached-at--)
 * [Visualize code](http://www.pythontutor.com/)
 * [Terminal commands](https://sp19.datastructur.es/materials/lab/lab1setup/lab1setup)
